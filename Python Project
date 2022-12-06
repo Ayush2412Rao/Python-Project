@@ -1,0 +1,11 @@
+email = input("Please Enter Your E-mail Address:").strip
+
+username  = email[:email.index("@")]
+
+domain  = email[email.index("@")+1:]
+
+domain1=domain.upper()
+
+print( "The Username of your E-mail is" ,username, "and Your Domain Name of your E-mail is",domain1)
+
+print("Thank You!!")
